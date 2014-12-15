@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-04-22T15:45:23" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2014-04-22T15:45:24" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2014-04-22T15:45:24" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2014-04-22T15:45:24" Importance="Diagnostic" Text="ProjectPath = ..\ModelLib\ModelLib.csproj" />
+  <Message Timestamp="2014-04-22T15:45:24" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2014-04-22T15:45:24" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2014-04-22T15:45:24" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-04-22T15:45:24" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-04-22T15:45:24" Importance="Medium" Text="Model's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Model::BaseEntity' -  (Class), 'Model::Name' -  (Class), 'Model::ListItem' -  (Class), 'Model::Place' -  (Class), 'Model::User' -  (Class), 'Model::Role' -  (Class), 'Model::Contacts' -  (Class), 'Model::Address' -  (Class), 'Model::Page' -  (Class), 'Model::Person' -  (Class), 'Model::Birth' -  (Class), 'Model::MaternityHome' -  (Class), 'Model::Gender' -  (Class), 'Model::Memorialis' -  (Class), 'Model::AliveMan' -  (Class), 'Model::DeadMan' -  (Class), 'Model::Burial' -  (Class), 'Model::Death' -  (Class), 'Model::Cemetary' -  (Class), 'Model::DeathReason' -  (Class) " />
+  <Message Timestamp="2014-04-22T15:45:53" Importance="Medium" Text="Project Added: C:\SITES\Memorialis\Memorialis\ModelLib\ModelLib.csproj" />
+  <Message Timestamp="2014-04-22T15:45:53" Importance="Medium" Text="'Model::BaseEntity' -  (Class) : success (file created) - C:\SITES\Memorialis\Memorialis\ModelLib\GeneratedCode\BaseEntity.cs" />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="High" Text="Code generation process has been canceled." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="The selection included 44 elements which were not bound to a template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'d2d41ad2-c306-4b35-96d6-18d381a35ecd' -  (Generalization): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'0b72131d-0f28-4743-8c24-44e11587f9f9' -  (Generalization): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::ITrackable' -  (Interface): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::ISortable' -  (Interface): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Name' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'af07b052-3ff8-4543-a4a6-0e65c2d961a8' -  (Generalization): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::ListItem' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'2f24d6c9-c19b-4090-8031-3064f386123d' -  (Generalization): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Place' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'81e08c52-e63d-4b08-8f1f-0ba7171ccd36' -  (Generalization): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'cf89b49a-ed62-4d96-8f01-3fcc5a27a56f' -  (Generalization): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::User' -  (Class): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Role' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'Model::' -  (Association): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::ILocked' -  (Interface): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::ISingletone' -  (Interface): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Contacts' -  (Class): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Address' -  (Class): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Page' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'dfa60cfc-7e23-4891-aee5-a64f8ddf4fc0' -  (Generalization): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Person' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'13f9aed3-0f01-4030-945b-96c51b2fab11' -  (Generalization): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Birth' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'Model::' -  (Association): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::MaternityHome' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'1f3da543-fa75-498a-ace9-f3a9aa108401' -  (Generalization): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'733360a2-274b-41ab-9e2a-be322281789a' -  (Generalization): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'00f595eb-ed3f-425e-a63e-8f44bc25cb16' -  (Generalization): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'9d1e0a38-6bb0-4fb6-83db-cce4257a7d6b' -  (Generalization): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'Model::' -  (Association): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Gender' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'e19aabb1-8471-4ba7-8c9c-9f7eeebb3cf5' -  (Generalization): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'160856ec-ec1c-42be-acb3-2b841d0d5a6b' -  (Generalization): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Memorialis' -  (Class): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::AliveMan' -  (Class): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::DeadMan' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'Model::' -  (Association): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'Model::' -  (Association): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Burial' -  (Class): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Death' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'Model::' -  (Association): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="Diagnostic" Text="'Model::' -  (Association): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::Cemetary' -  (Class): no bound template." />
+  <Warning Timestamp="2014-04-22T15:45:54" Importance="Medium" Text="'Model::DeathReason' -  (Class): no bound template." />
+  <Message Timestamp="2014-04-22T15:45:54" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 23." />
+</Log>

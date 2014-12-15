@@ -1,0 +1,17 @@
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\efe.Memorialis.Api.dll.config
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\efe.Memorialis.Api.dll
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\efe.Memorialis.Api.pdb
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\Microsoft.Owin.dll
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\Newtonsoft.Json.dll
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\Owin.dll
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\System.Web.Http.dll
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\System.Web.Http.Owin.dll
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\Microsoft.Owin.xml
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\Newtonsoft.Json.xml
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\System.Web.Http.xml
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\bin\Release\System.Web.Http.Owin.xml
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\obj\Release\efe.Memorialis.Api.dll
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\obj\Release\efe.Memorialis.Api.pdb
+C:\Users\ph_000\Documents\Projects\Memorialis\Api\obj\Release\Api.csprojResolveAssemblyReference.cache
