@@ -3,7 +3,6 @@ using Nancy.Bootstrapper;
 using Nancy.Conventions;
 using Nancy.TinyIoc;
 using SquishIt.Framework;
-using SquishIt.Less;
 
 namespace Memorialis.Web
 {
@@ -13,7 +12,6 @@ namespace Memorialis.Web
         {
             base.ApplicationStartup(container, pipelines);
 
-            Bundle.RegisterStylePreprocessor(new LessPreprocessor());
 
             //Collect all stylesheets
             Bundle.Css()
