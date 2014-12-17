@@ -12,7 +12,12 @@ namespace Memorialis.Identity
     /// <summary>
     /// Domain specific IUserStore implementation
     /// </summary>
-    public class UserStore : IUserStore<User, Guid>, IUserPasswordStore<User, Guid>, IUserPhoneNumberStore<User, Guid>, IUserEmailStore<User, Guid>, IUserRoleStore<User, Guid>
+    public class UserStore : 
+        IUserStore<User, Guid>, 
+        IUserPasswordStore<User, Guid>, 
+        IUserPhoneNumberStore<User, Guid>, 
+        IUserEmailStore<User, Guid>, 
+        IUserRoleStore<User, Guid>
     {
 
         public UserStore()
