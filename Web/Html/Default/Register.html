@@ -1,0 +1,30 @@
+﻿<article>
+    <p>Каждая страница сайта <strong>«Мемориал»</strong> - это небольшой штрих истории страны, начертанный жизнью человека.</p>
+    <img src="/Images/Default.png" alt="Мемориал" />
+</article>
+<form>
+    <h1>Регистрация</h1>
+    <div>
+        <label for="regSurename">Фамилия</label>
+        <input type="text" id="regSurename" data-bind="value: FullName.Surename" placeholder="Фамилия" />
+    </div>
+    <div>
+        <label for="regName">Имя</label>
+        <input type="text" id="regName" data-bind="value: FullName.Name" placeholder="Имя" />
+    </div>
+    <div>
+        <label for="regPhone">Телефон</label>
+        <input type="text" id="regPhone" data-bind="value: Phone" placeholder="Телефон" />
+    </div>
+    <div>
+        <label for="regPassword">Пароль</label>
+        <input type="password" id="regPassword" data-bind="value: Password" placeholder="Пароль" />
+    </div>
+    <div>
+        <label for="regConfirm">Подтверждение</label>
+        <input type="password" id="regConfirm" data-bind="value: Confirm" placeholder="Подтверждение" />
+    </div>
+    <div>
+        <button data-bind="click: register">Зарегистрироваться</button>
+    </div>
+</form>

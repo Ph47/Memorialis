@@ -2,8 +2,9 @@
 <html>
 <head>
     <title>Мемориал</title>
-    @Context.ViewBag.Styles
-    <script type="text/javascript" data-main="/Scripts/Init.js" src="/Scripts/RequireJS-2.1.14.min.js"></script>        
+    @ViewBag.Styles
+    @ViewBag.RequireJS
+    
 </head>
 <body>
     @Section['Content'];

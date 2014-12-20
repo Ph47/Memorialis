@@ -11,7 +11,7 @@
     this.apiGetTokenUrl = '/api/Token/Get?code={code}';
     this.apiRefreshTokenUrl = '/api/Token/Refresh?token={code}';
     this.apiUrl = '/api/';
-    this.htmlPath = '/Static/Html';
+    this.htmlPath = '/Html';
     this.masterHtmlPath = htmlPath + '/Master/{name}.html';
     
 

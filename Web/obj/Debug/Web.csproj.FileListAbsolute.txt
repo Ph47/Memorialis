@@ -241,7 +241,6 @@ c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Web\bin\Yahoo.Yui.Compr
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Web\bin\efe.Memorialis.Api.pdb
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Web\bin\Memorialis.Core.pdb
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Web\bin\Memorialis.Identity.pdb
-c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Web\bin\AjaxMin.pdb
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Web\bin\EntityFramework.xml
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Web\bin\EntityFramework.SqlServer.xml
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Web\bin\Microsoft.AspNet.Identity.Core.xml

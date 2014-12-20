@@ -29,8 +29,8 @@ namespace Memorialis.Core.Migrations
 //
 //
 //
-//45995355-80A7-44DF-BF79-FEC6737C1C82
-//3E91DE3A-2A73-46C3-9FD9-D0CC02062284
+//
+//
 //EE2AA081-760E-45D1-964F-73FA283A4A74
 //E8035BC3-8628-4F23-AF5E-599FFF84E5E4
 //4D83345B-AEDB-4E1F-8844-3E904EA4EE46
@@ -38,10 +38,13 @@ namespace Memorialis.Core.Migrations
 
             InitSetting(context, new Guid("AA7FB51D-B02D-467C-9A33-A6447B79749C"), SettingGroup.Basic, true, "ProjectUrl", url);
             InitSetting(context, new Guid("FAA56156-C66D-4923-8D71-E4840AA6CC45"), SettingGroup.Basic, true, "EchoUrl", echo);
+            InitSetting(context, new Guid("45995355-80A7-44DF-BF79-FEC6737C1C82"), SettingGroup.Basic, false, "RootPath", "/");
+            InitSetting(context, new Guid("3E91DE3A-2A73-46C3-9FD9-D0CC02062284"), SettingGroup.Basic, true, "StaticFilesCacheTime", "86400");
             InitSetting(context, new Guid("4905F3B7-A1D2-4B79-A572-FBAE5C77B548"), SettingGroup.OAuth, true, "AuthorizeEndpointPath", "/Login");
             InitSetting(context, new Guid("9EF0B8B4-FE22-49A7-85C1-6F03DD0C6C61"), SettingGroup.OAuth, true, "TokenEndpointPath", "/Token");
             InitSetting(context, new Guid("6292EF3C-3183-4EF9-96F7-8C7C893A3BF0"), SettingGroup.OAuth, true, "ClientId", clientId);
             InitSetting(context, new Guid("5678B46D-386A-4227-9D8E-F7393FC7CC08"), SettingGroup.OAuth, false, "Secret", secret);
+
 
             context.Clients.AddOrUpdate<Client>(
                 new Client()

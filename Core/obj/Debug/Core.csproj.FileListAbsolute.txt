@@ -68,7 +68,6 @@ c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Core\bin\Debug\EntityFr
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Core\bin\Debug\Newtonsoft.Json.xml
-c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Core\obj\Debug\Memorialis.Core.Migrations.InitialCreate.resources
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Core\obj\Debug\Memorialis.Core.Migrations.AddListItemAndRoleClasses.resources
 c:\Users\ph\Documents\Projects\Memorialis\Rep\Memorialis\Core\obj\Debug\Memorialis.Core.Migrations.AddRolesUsersLink.resources

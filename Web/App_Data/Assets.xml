@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+This file contains desription of all assets avaiable.
+-->
+<assets>
+  <!--CSS-->
+  <asset name="Default" type="css" path="/css/Default.css">
+    <file source="~/Styles/Default.less"/>    
+  </asset>
+  
+  <!--JavaScript-->
+
+  <!--Libs-->
+  <asset name="Require" type="js" path="/js/Require.js">
+    <file source="~/Scripts/require.js"/>
+    <attribute name="data-main" value="/js/Init.js"/>
+  </asset>
+
+  <asset name="Knockout" type="js" path="/js/Knockout.js">
+    <file source="~/Scripts/knockout-3.2.0.debug.js" minified="~/Scripts/knockout-3.2.0.js"/>
+  </asset>
+
+  <asset name="KnockoutMapping" type="js" path="/js/KnockoutMapping.js">
+    <file source="~/Scripts/knockout.mapping-latest.debug.js" minified="~/Scripts/knockout.mapping-latest.js"/>
+  </asset>
+
+  <asset name="KnockoutValidation" type="js" path="/js/KnockoutValidation.js">
+    <file source="~/Scripts/knockout.validation.debug.js" minified="~/Scripts/knockout.validation.js"/>
+  </asset>
+
+  <asset name="jQuery" type="js" path="/js/jQuery.js">
+    <file source="~/Scripts/jquery-2.1.1.js" minified="~/Scripts/jquery-2.1.1.min.js"/>
+  </asset>
+
+  <asset name="Sammy" type="js" path="/js/Sammy.js">
+    <file source="~/Scripts/sammy-0.7.5.js" minified="~/Scripts/sammy-0.7.5.min.js"/>
+  </asset>
+
+  <asset name="jStorage" type="js" path="/js/jStorage.js">
+    <file source="~/Scripts/jstorage-0.4.12.js" minified="~/Scripts/jstorage-0.4.12.min.js"/>
+  </asset>
+
+
+  <!--App-->
+  <asset name="Init" type="js" path="/js/Init.js">
+    <file source="~/Scripts/Init.js"/>
+  </asset>
+
+  <asset name="App" type="js" path="/js/App.js">
+    <file source="~/Scripts/App/App.js"/>
+  </asset>
+
+  <asset name="Auth" type="js" path="/js/Auth.js">
+    <file source="~/Scripts/App/Auth.js"/>
+  </asset>
+
+  <asset name="Config" type="js" path="/js/Config.js">
+    <file source="~/Scripts/App/Config.js"/>
+  </asset>
+
+  <asset name="Helper" type="js" path="/js/Helper.js">
+    <file source="~/Scripts/App/Helper.js"/>
+  </asset>
+
+  <asset name="MasterLoader" type="js" path="/js/MasterLoader.js">
+    <file source="~/Scripts/App/MasterLoader.js"/>
+  </asset>
+
+
+
+  <asset name="DefaultMaster" type="js" path="/js/DefaultMaster.js">
+    <file source="~/Scripts/Master/DefaultMaster.js"/>
+  </asset>
+  
+  <asset name="RegisteredMaster" type="js" path="/js/RegisteredMaster.js">
+    <file source="~/Scripts/Master/RegisteredMaster.js"/>
+  </asset>
+
+
+  <asset name="Default" type="js" path="/js/Default.js">
+    <file source="~/Scripts/Vm/Default.js"/>
+  </asset>
+
+  <asset name="Login" type="js" path="/js/Login.js">
+    <file source="~/Scripts/Vm/Login.js"/>
+  </asset>
+
+  <asset name="Wall" type="js" path="/js/Wall.js">
+    <file source="~/Scripts/Vm/Wall.js"/>
+  </asset>
+</assets>

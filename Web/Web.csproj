@@ -41,8 +41,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AjaxMin">
-      <HintPath>..\packages\AjaxMin.4.48.4489.28432\lib\net20\AjaxMin.dll</HintPath>
+    <Reference Include="AjaxMin, Version=4.84.4790.14405, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AjaxMin.4.84.4790.14417\lib\net40\AjaxMin.dll</HintPath>
     </Reference>
     <Reference Include="dotless.Core, Version=1.4.1.0, Culture=neutral, PublicKeyToken=96b446c9e63eae34, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -168,38 +169,47 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="App_Data\Assets.xml" />
+    <Content Include="App_Data\Memorialis.mdf" />
+    <Content Include="App_Data\Memorialis_log.ldf">
+      <DependentUpon>Memorialis.mdf</DependentUpon>
+    </Content>
     <Content Include="Scripts\App\App.js" />
     <Content Include="Scripts\App\Auth.js" />
     <Content Include="Scripts\App\Config.js" />
     <Content Include="Scripts\App\Helper.js" />
     <Content Include="Scripts\App\MasterLoader.js" />
     <Content Include="Scripts\Init.js" />
-    <Content Include="Scripts\Lib\jquery-2.1.0.min.js" />
+    <None Include="Scripts\jquery-2.1.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\jstorage-0.4.12.js" />
+    <Content Include="Scripts\jstorage-0.4.12.min.js" />
+    <Content Include="Scripts\knockout-3.2.0.debug.js" />
+    <Content Include="Scripts\knockout-3.2.0.js" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Scripts\Lib\jstorage-0.4.11.js" />
-    <Content Include="Scripts\Lib\knockout-3.1.0.min.js" />
-    <Content Include="Scripts\Lib\knockout.mapping-2.4.1.min.js" />
-    <Content Include="Scripts\Lib\knockout.validation-2.0.0.min.js" />
-    <Content Include="Scripts\Lib\modernizr-2.8.2.js" />
-    <Content Include="Scripts\Lib\sammy-0.7.5.js" />
+    <Content Include="Scripts\knockout.mapping-latest.debug.js" />
+    <Content Include="Scripts\knockout.mapping-latest.js" />
+    <Content Include="Scripts\knockout.validation.debug.js" />
+    <Content Include="Scripts\knockout.validation.js" />
     <Content Include="Scripts\Master\RegisteredMaster.js" />
     <Content Include="Scripts\Master\DefaultMaster.js" />
-    <Content Include="Scripts\RequireJS-2.1.14.min.js" />
+    <Content Include="Scripts\require.js" />
+    <Content Include="Scripts\sammy-0.7.5.js" />
+    <Content Include="Scripts\sammy-0.7.5.min.js" />
     <Content Include="Scripts\Vm\Wall.js" />
     <Content Include="Scripts\Vm\Login.js" />
-    <Content Include="Scripts\Vm\Dev.js" />
     <Content Include="Scripts\Vm\Default.js" />
-    <Content Include="Static\Html\Default\Register.html" />
-    <Content Include="Static\Html\Wall\Default.html" />
-    <Content Include="Static\Html\Master\Login.html" />
-    <Content Include="Static\Html\Dev\Log.html" />
-    <Content Include="Static\Html\Login\Default.html" />
-    <Content Include="Static\Html\Master\Default.html" />
-    <Content Include="Static\Html\Master\Registered.html" />
-    <Content Include="Static\Images\Default.png" />
-    <Content Include="Static\Images\logo.svg" />
+    <Content Include="Html\Default\Register.html" />
+    <Content Include="Html\Wall\Default.html" />
+    <Content Include="Html\Master\Login.html" />
+    <Content Include="Html\Login\Default.html" />
+    <Content Include="Html\Master\Default.html" />
+    <Content Include="Html\Master\Registered.html" />
+    <Content Include="Images\Default.png" />
+    <Content Include="Images\logo.svg" />
     <Content Include="Styles\Default.less" />
     <Content Include="Styles\Bootstrap\.csscomb.json" />
     <Content Include="Styles\Bootstrap\.csslintrc" />
@@ -273,6 +283,7 @@
     <Content Include="Styles\Bootstrap\utilities.less" />
     <Content Include="Styles\Bootstrap\variables.less" />
     <Content Include="Styles\Bootstrap\wells.less" />
+    <Content Include="Scripts\jquery-2.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -289,13 +300,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\SquishItLess.cs" />
-    <Compile Include="Start\Bootstrapper.cs" />
-    <Compile Include="Start\ContentTypeProvider.cs" />
-    <Compile Include="Modules\BundlesModule.cs" />
+    <Compile Include="App_Start\Bootstrapper.cs" />
+    <Compile Include="Modules\AssetsModule.cs" />
     <Compile Include="Modules\HomeModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Start\Startup.cs" />
+    <Compile Include="App_Start\Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Api\Api.csproj">
@@ -312,7 +321,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="App_Code\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -329,7 +338,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>2483</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44347/</IISUrl>
+          <IISUrl>https://localhost:44301/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>https://memorialis.efe/</CustomServerUrl>
